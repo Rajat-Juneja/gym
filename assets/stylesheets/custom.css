@@ -4,6 +4,12 @@ body{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
+@media(max-width:768px){
+    body {
+        display: none;
+    }
+}
+
 *{
     box-sizing: border-box;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -265,6 +271,19 @@ nav ul li .btn:hover{
 #second ul li:hover .li1{
     transform: translateY(-100%);
 }
+
+
+@media(max-width:768px){
+    #second {
+        display: block;
+    }
+}
+/*
+@media(max-width:767px){
+    #second{
+        display: none !important;
+    }
+}*/
 
 #third{
     position: relative;
